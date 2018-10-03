@@ -1,0 +1,25 @@
+{
+  "name": "find-raspberry-pi-ip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": {
+    "name": "Karel Blavka",
+    "email": "karel.blavka@hardwario.com",
+    "url": "https://github.com/blavka"
+  },
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/blavka/find-raspberry-pi-ip.git"
+  },
+  "dependencies": {
+    "ip": "^1.1.5",
+    "node-arp": "^1.0.6",
+    "ping": "^0.2.2"
+  },
+  "devDependencies": {}
+}
